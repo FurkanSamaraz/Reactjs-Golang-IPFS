@@ -1,0 +1,134 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: #b5cade;
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin: 0 auto 20px auto;
+  margin-top: 20px;
+  max-width: 600px;
+  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+  animation: blinker 4s linear infinite;
+  color: #ff0000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-shadow:
+  0 0 5px #fff, 
+  0 0 10px #fff,
+  0 0 15px #ff2525, 
+  0 0 20px #000000, 
+  0 0 25px #ff3030, 
+  0 0 30px #000000, 
+  0 0 35px #00ff00;
+  }
+  @keyframes blinker {  
+  50% { opacity: 0; }
+  
+}
+
+
+/* Path: react-ipfs-post/src/App.css */
+/* Compare this snippet from react-ipfs-post/src/components/InputForm.css: */
+.container { 
+  background-color: #306f26; 
+  border-radius: 10px; 
+  padding: 30px; 
+  justify-content: center;
+  align-items: center;
+} 
+
+.form-control:focus { 
+  border-color: #186bb3; 
+  box-shadow: none; 
+}
+
+.form-check-input:checked + .form-check-label::before { 
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+
+.btn-primary { 
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+
+.btn-primary:hover { 
+  background-color: #0069d9; 
+  border-color: #0062cc; 
+}
+
+.col-form-label { 
+  font-weight: bold; 
+}
+
+  
+
+legend { 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+}
+
+/* Path: react-ipfs-post/src/App.css */
+/* Compare this snippet from react-ipfs-post/src/components/InputForm.css: */
+/* .container { */
+/*   background-color: #f8f9fa; */
+/*   border-radius: 10px; */
+/*   padding: 30px; */
+/* } */
+
+/* .form-control:focus { */
+/*   border-color: #6c757d; */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+  max-width: 600px;
+}
+
+.form-check-input:checked + .form-check-label::before { 
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+
+.btn-primary { 
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+
+.btn-primary:hover { 
+  background-color: #0069d9; 
+  border-color: #0062cc; 
+}
+
+.col-form-label { 
+  font-weight: bold; 
+}
+
+
+legend { 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+}
+
+/* Path: react-ipfs-post/src/App.css */
+
+
+
+
+
+
